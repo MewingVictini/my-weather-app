@@ -1,0 +1,26 @@
+.content-wrapper {
+  max-width: 620px;
+  margin: 150px auto;
+  padding: 10px 0 10px 20px;
+  background: linear-gradient(rgb(216, 236, 253, 0.4), rgb(195, 184, 243, 0.7));
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 42px;
+  font-weight: 100;
+  color: #29273f;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: #161424;
+  font-weight: 600;
+}
