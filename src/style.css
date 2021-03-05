@@ -1,9 +1,5 @@
-.content-wrapper {
-  max-width: 620px;
-  margin: 150px auto;
-  padding: 10px 0 10px 20px;
-  background: linear-gradient(rgb(216, 236, 253, 0.4), rgb(195, 184, 243, 0.7));
-  border-radius: 8px;
+body {
+  background-image: url(https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
 h1 {
@@ -21,6 +17,45 @@ ul {
 
 li {
   list-style: none;
-  color: #161424;
+  color: #34333b;
   font-weight: 600;
+  font-family: "Rubik", sans-serif;
+}
+
+.content-wrapper {
+  max-width: 620px;
+  margin: 150px auto 0 auto;
+  padding: 10px 0 10px 20px;
+  background: linear-gradient(rgb(216, 236, 253), rgb(143, 142, 245));
+  border-radius: 8px;
+}
+
+.dayAndDescription {
+  font-size: 17px;
+}
+
+.conditions {
+  font-size: 20px;
+}
+
+.displayedTemperature {
+  font-size: 95px;
+  font-family: "Rubik", sans-serif;
+}
+
+.weather-app-wrapper {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.source-code {
+  color: #fff;
+}
+
+.link-to-code {
+  color: #fff;
+}
+
+.link-to-code:hover {
+  color: #050558;
 }
