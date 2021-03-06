@@ -32,15 +32,11 @@ li {
 
 .dayAndDescription {
   font-size: 17px;
+  line-height: 1.1;
 }
 
 .conditions {
   font-size: 20px;
-}
-
-.displayedTemperature {
-  font-size: 95px;
-  font-family: "Rubik", sans-serif;
 }
 
 .weather-app-wrapper {
@@ -58,4 +54,32 @@ li {
 
 .link-to-code:hover {
   color: #050558;
+}
+
+.displayedTemperature {
+  font-size: 80px;
+  font-family: "Rubik", sans-serif;
+  vertical-align: middle;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.col-7 {
+  padding-left: 3px;
+}
+
+.units {
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+.fahrenheit-temp {
+  text-decoration: none;
+  color: #141497;
+}
+
+.fahrenheit-temp:hover {
+  text-decoration: underline;
+  color: #141497;
 }
