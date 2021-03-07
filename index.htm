@@ -11,29 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
   <div class="container">
     <div class="weather-app-wrapper">
       <div class="content-wrapper">
-        <h1>
-            Wrocław
-        </h1>
+        <h1 id="main-city"></h1>
         <ul>
           <div class="dayAndDescription">
-          <li>
+          <li id="current-time">
             Monday, 19:34
           </li>
-          <li>
-            Clear sky
-          </li>
+          <li id="description"></li>
           </div>
         </ul>
         <div class="row">
           <div class="col-7">
             <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Clear">
-            <strong class="displayedTemperature">3</strong> 
+            <strong id="displayed-temperature" class="displayedTemperature"></strong> 
             <span class="units">°C | 
             <a href="#" class="fahrenheit-temp"> °F</a>
             </span>
@@ -42,13 +39,13 @@
             <ul>
               <div class="conditions">
               <li>
-                Humidity: 80%
+                Humidity: <span id="humidity"></span>%
               </li>
               <li>
-                Wind: 5km/h
+                Wind: <span id="wind-speed"></span> km/h
               </li>
               <li>
-                Precipitation: 3%
+                Pressure: <span id="pressure"></span> hPa
               </li>
               </div>
             </ul>
