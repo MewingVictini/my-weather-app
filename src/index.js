@@ -29,11 +29,14 @@ let pressureElement = document.querySelector("#pressure");
 pressureElement.innerHTML = response.data.main.pressure;
 let currentTime = document.querySelector("#current-time");
 currentTime.innerHTML = showCurrentTime(response.data.dt * 1000);
+let weatherIcon = document.querySelector("#weather-icon");
+weatherIcon.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+weatherIcon.setAttribute("alt", response.data.weather[0].description);
 }
 
 
 let apiKey = "5f096b83bdc84f26ba30a112e06d40d5";
-let city = "New York"
+let city = "Lisbon"
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
