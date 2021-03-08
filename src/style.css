@@ -88,3 +88,14 @@ li:first-letter {
   text-decoration: underline;
   color: #141497;
 }
+
+.active {
+  color: #212529;
+  text-decoration: none;
+  cursor: default;
+}
+
+.active:hover {
+  color: #212529;
+  text-decoration: none;
+}
