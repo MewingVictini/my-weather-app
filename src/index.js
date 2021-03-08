@@ -54,6 +54,7 @@ function convertToFahrenheit(event) {
   let displayedTemperature = document.querySelector("#displayed-temperature");
   celsiusLink.classList.remove("active");
   fahrenheitLink.classList.add("active");
+  celsiusLink.classList.add("temperature-conversion");
   let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
   displayedTemperature.innerHTML = Math.round(fahrenheitTemperature);
 }
@@ -62,6 +63,7 @@ function convertToCelsius(event) {
   event.preventDefault();
   celsiusLink.classList.add("active");
   fahrenheitLink.classList.remove("active");
+  celsiusLink.classList.remove("temperature-conversion");
   let displayedTemperature = document.querySelector("#displayed-temperature");
   displayedTemperature.innerHTML = Math.round(celsiusTemperature);
 }

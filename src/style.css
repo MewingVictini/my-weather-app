@@ -99,3 +99,13 @@ li:first-letter {
   color: #212529;
   text-decoration: none;
 }
+
+.temperature-conversion {
+  color: #141497;
+  text-decoration: none;
+}
+
+.temperature-conversion:hover {
+  color: #141497;
+  text-decoration: underline;
+}
