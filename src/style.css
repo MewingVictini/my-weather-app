@@ -27,9 +27,19 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+  line-height: 15px;
+  color: #000;
+}
+
 .content-wrapper {
   max-width: 620px;
-  margin: 150px auto 0 auto;
+  margin: 115px auto 0 auto;
   padding: 10px 0 10px 20px;
   background: linear-gradient(rgb(216, 236, 253), rgb(143, 142, 245));
   border-radius: 8px;
@@ -108,4 +118,26 @@ li:first-letter {
 .temperature-conversion:hover {
   color: #141497;
   text-decoration: underline;
+}
+
+.icons {
+  margin: 0 auto;
+  display: block;
+  height: 60px;
+  width: 60px;
+}
+
+.days-wrapper {
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+.all-days-wrapper {
+  margin: 0 20px 0 0;
+}
+
+.weather-forecast-temp {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #000;
 }
